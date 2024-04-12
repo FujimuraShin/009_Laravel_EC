@@ -12,17 +12,18 @@
 
         <div class="container text-center">
             <div class="row">
+
                 <div class="col">
                     <div class="card">
                         <div class="card-body">
                              <div>
-                                商品名
+                                本棚
                             </div>
                             <div>
-                                <img  src="{{asset('storage/Camera.jpg')}}" width="100" height="100">
+                                <img  src="../storage/images/bookshelf.jpg" width="200" height="200">
                             </div>
                             <div>
-                                金額
+                                ￥1,2500
                             </div>
                             <div>
                                 <button type="button" class="btn btn-primary">購入</button>
@@ -30,12 +31,106 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col">
-                    画像
+                    <div class="card">
+                        <div class="card-body">
+                             <div>
+                                カメラ
+                            </div>
+                            <div>
+                                <img  src="../storage/images/Camera.jpg" width="200" height="200">
+                            </div>
+                            <div>
+                                ￥3,2500
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-primary">購入</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
                 <div class="col">
-                    金額
+                    <div class="card">
+                        <div class="card-body">
+                             <div>
+                                椅子
+                            </div>
+                            <div>
+                                <img  src="../storage/images/Chair.jpg" width="200" height="200">
+                            </div>
+                            <div>
+                                ￥2500
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-primary">購入</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                             <div>
+                                机
+                            </div>
+                            <div>
+                                <img  src="../storage/images/Desk.jpg" width="200" height="200">
+                            </div>
+                            <div>
+                                ￥8000
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-primary">購入</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                             <div>
+                                照明
+                            </div>
+                            <div>
+                                <img  src="../storage/images/Lamp.jpg" width="200" height="200">
+                            </div>
+                            <div>
+                                ￥3.4500
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-primary">購入</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                             <div>
+                                プラネタリウム
+                            </div>
+                            <div>
+                                <img  src="../storage/images/Planetarium.jpg" width="200" height="200">
+                            </div>
+                            <div>
+                                ￥4,3680
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-primary">購入</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                 
             </div>
         </div>
 

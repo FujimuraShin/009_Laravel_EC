@@ -13,7 +13,7 @@
         <div class="container text-center">
             <div class="row">
 
-                <div class="col">
+                <div class="col-6 col-md-4">
                     <div class="card">
                         <div class="card-body">
                              <div>
@@ -32,7 +32,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col-6 col-md-4">
                     <div class="card">
                         <div class="card-body">
                              <div>
@@ -51,7 +51,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col-6 col-md-4">
                     <div class="card">
                         <div class="card-body">
                              <div>
@@ -70,7 +70,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col-6 col-md-4">
                     <div class="card">
                         <div class="card-body">
                              <div>
@@ -89,7 +89,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col-6 col-md-4">
                     <div class="card">
                         <div class="card-body">
                              <div>
@@ -108,9 +108,9 @@
                     </div>
                 </div>
 
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body">
+                <div class="col-6 col-md-4">
+                    <div class="card ">
+                        <div class="card-body ">
                              <div>
                                 プラネタリウム
                             </div>
@@ -126,6 +126,8 @@
                         </div>
                     </div>
                 </div>
+
+                
 
 
 

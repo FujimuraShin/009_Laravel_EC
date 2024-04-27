@@ -10,9 +10,12 @@
         @vite(['resources/sass/app.scss','resources/js/app.js'])
     </head>
 
+
+    <body>
         <div class="container text-center">
             <div class="row">
 
+            <!--
                 <div class="col-6 col-md-4">
                     <div class="card">
                         <div class="card-body">
@@ -127,6 +130,7 @@
                     </div>
                 </div>
 
+                -->
 
                 <!--
                     bbbb
@@ -153,7 +157,8 @@
                                 <img  src="{{asset('../storage/images/'.$datas->image_name)}}" width="200" height="200">
                                 <div>￥{{ $datas->price }}円</div>
                                 <div>
-                                    <button type="button" class="btn btn-primary">購入</button>
+                                    <button type="button" class="btn btn-primary" onclick="location.href='http://127.0.0.1:8000/detail?id={{ $datas->id }}' ">商品詳細へ</button>
+
                                 </div>
                                 
                             </div>
@@ -168,7 +173,7 @@
             </div>
         </div>
 
-    <body>
+    
 
 
     </body>

@@ -142,6 +142,7 @@
                 </div>
                 -->
                 
+                
                 @foreach($data as $datas)
                 <div class="col-6 col-md-4">
                     <div class="card">

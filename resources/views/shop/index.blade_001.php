@@ -115,7 +115,7 @@
                                 プラネタリウム
                             </div>
                             <div>
-                            <img  src="../storage/images/Planetarium.jpg" width="200" height="200">
+                                <img  src="../storage/images/Planetarium.jpg" width="200" height="200">
                             </div>
                             <div>
                                 ￥4,3680
@@ -127,39 +127,8 @@
                     </div>
                 </div>
 
-
-                <!--
-                <div class="col-6 col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <div>
-                                @foreach($data as $datas)
-                                    <td>{{ $datas->item_name }}</td>
-                                @endforeach
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                -->
                 
-                @foreach($data as $datas)
-                <div class="col-6 col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <div>
-                                
-                                <div>{{ $datas->item_name }}</div>
-                                <img  src="{{asset('../storage/images/'.$datas->image_name)}}" width="200" height="200">
-                                <div>￥{{ $datas->price }}円</div>
-                                <div>
-                                    <button type="button" class="btn btn-primary">購入</button>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                @endforeach
+
 
 
 
